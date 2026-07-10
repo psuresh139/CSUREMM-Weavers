@@ -1,0 +1,11 @@
+outcome,metric,n_pos,n_neg,median_breeder,median_nonbreeder,mannwhitney_p
+fledged,degree,169,277,0.585,0.515,0.17436
+fledged,strength,169,277,0.542,0.504,0.94867
+fledged,betweenness,169,277,0.464,0.552,0.14281
+fledged,eigenvector,169,277,0.562,0.478,0.41667
+fledged,clustering,169,277,0.51,0.494,0.90296
+hatched,degree,235,211,0.531,0.531,0.76568
+hatched,strength,235,211,0.521,0.512,0.73694
+hatched,betweenness,235,211,0.479,0.558,0.04032
+hatched,eigenvector,235,211,0.542,0.479,0.73972
+hatched,clustering,235,211,0.522,0.476,0.13495

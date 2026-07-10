@@ -1,0 +1,6 @@
+metric,n,spearman_rho,p_value
+degree,404,0.2206,8e-06
+strength,404,0.2309,3e-06
+betweenness,404,0.1222,0.013975
+eigenvector,404,-0.1284,0.009758
+clustering,404,0.1912,0.00011

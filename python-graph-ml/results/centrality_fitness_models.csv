@@ -1,0 +1,3 @@
+outcome,n,n_pos,base_rate,auc_effort_only_lr,auc_centrality_lr,auc_centrality_rf,auc_centrality+effort_rf,auc_shuffled_null
+fledged,446,169,0.379,0.633,0.6038,0.7581,0.8246,0.5501
+hatched,446,235,0.527,0.6365,0.5629,0.6594,0.7429,0.5153

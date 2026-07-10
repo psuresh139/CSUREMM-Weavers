@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Archives / bulk data drops (raw data lives in ../Birds/data, not tracked)
+*.zip
+
+# Raw study data must never be committed — join in from ../Birds/data locally.
+# (Referenced via config.py; kept out of version control.)
+
+# Notebook scratch
+*.nbconvert.ipynb
+
+# Generated at runtime — contains per-bird / per-dyad derived data
+# (graphs, embeddings, individual breeding labels). NEVER commit this to the
+# public repository. Only the aggregate, non-identifying tables in results/
+# are tracked.
+workspace/

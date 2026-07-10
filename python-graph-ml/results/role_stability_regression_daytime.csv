@@ -1,0 +1,2 @@
+target,n,rf_r2,rf_spearman,rf_mae,persistence_r2,persistence_spearman,persistence_mae,null_r2,null_spearman,period,top_feat_1,top_feat_2,top_feat_3,top_feat_4,top_feat_5
+degree,415,0.1681,0.3961,0.2228,-0.375,0.2665,0.269,-1.0777,-0.0381,daytime,degree_pct:0.250,betweenness_pct:0.201,strength_pct:0.190,clustering_pct:0.174,eigenvector_pct:0.164

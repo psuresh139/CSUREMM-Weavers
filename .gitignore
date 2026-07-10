@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# R
+.Rhistory
+.RData
+.RDataTmp*
+.Rapp.history
+*.Rproj.user
+
+# Study data must NEVER be committed — raw or derived, at any resolution.
+# This repository is public; the weaver dataset is not ours to distribute.
+*.xlsx
+*.xls
+*.zip
+*.pdf
+data/
+**/workspace/

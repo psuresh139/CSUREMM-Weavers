@@ -1,0 +1,37 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Network analysis
+networkx>=3.1
+python-louvain>=0.16       # community detection (import: community)
+
+# Node2Vec — Apple Silicon compatible (gensim-backed, no TF/StellarGraph)
+node2vec>=0.4.6
+gensim>=4.3
+
+# Graph neural networks — Apple Silicon (MPS) native.
+# NOTE: the old advice to pin `pytorch::cpuonly` for ARM64 is obsolete;
+# modern torch ships a working MPS (Apple GPU) backend, and PyG >=2.5
+# vendors torch-sparse/scatter so no manual compilation is needed.
+torch>=2.2                 # MPS backend used automatically when available
+torch-geometric>=2.5       # GraphSAGE link prediction (ml/gnn_*.py)
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+
+# Optional but recommended
+umap-learn>=0.5            # UMAP projection for notebook 03
+hdbscan>=0.8               # density-based clustering in ml/clustering.py
+
+# RL environment
+gymnasium>=0.29            # maintained Gym fork
+
+# Optional: RL agent training
+# stable-baselines3>=2.0   # uncomment when you want to train agents
+
+# Data loading
+openpyxl>=3.1              # read .xlsx files
